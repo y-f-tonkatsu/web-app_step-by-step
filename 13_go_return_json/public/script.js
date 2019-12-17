@@ -22,7 +22,8 @@ function insertTweetHTML(item) {
     console.log("insertTweetHTML", item)
     // containerのcontentの中の要素を変更している
     const container = document.getElementById('container')
-    const insertHtmlName = `<div id="user"> Name: ${JSON.stringify(item.name)}</div>`
-    const insertHtmlContent = `<div id="user"> Message: ${JSON.stringify(item.message)} </div>`
-    container.insertAdjacentHTML('afterbegin', insertHtmlName + insertHtmlContent);
+    const insertHtmlName = `<div class="user"> Name: ${JSON.stringify(item.name)}</div>`
+    const insertHtmlContent = `<div class="message"> Message: ${JSON.stringify(item.message)} </div>`
+    const insertTweet = `<div class="tweet">insertHtmlName + insertHtmlContent</div>`
+    container.insertAdjacentHTML('afterbegin', insertTweet);
 }
