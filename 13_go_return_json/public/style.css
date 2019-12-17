@@ -15,8 +15,17 @@ h1 {
     color: #393D9C;
 }
 
-#container {
+#flex_container {
     color: darkgreen;
+    display: flex;
+}
+
+.column_left{
+    width: 20%;
+}
+
+.column_right{
+    width: 20%;
 }
 
 #button {
@@ -24,4 +33,5 @@ h1 {
     padding: 1rem;
     background-color: #48c774;
     color: lawngreen;
+    border-radius: 12px;
 }
