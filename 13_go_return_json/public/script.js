@@ -24,5 +24,6 @@ function insertTweetHTML(item) {
     const container = document.getElementById('container')
     const insertHtmlName = `<div class="user"> Name: ${JSON.stringify(item.name)}</div>`
     const insertHtmlContent = `<div class="message"> Message: ${JSON.stringify(item.message)} </div>`
-    container.insertAdjacentHTML('afterbegin', insertHtmlName + insertHtmlContent);
+    const insertTweet = `<div class="tweet">insertHtmlName + insertHtmlContent</div>`
+    container.insertAdjacentHTML('afterbegin', insertTweet);
 }
